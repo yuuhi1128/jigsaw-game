@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="shortcut icon" href="./src/img/rubik.svg" type="image/x-icon">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./src/css/style.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
+  <title>Jigsaw Game</title>
+</head>
+<body>
+  <div id="content">
+    <p class="title">Drag & drop the pieces to create a complete picture</p>
+    <div class="wrap">
+      <div class="left">
+        <div class="row">
+          <div class="cell">
+            <img id="cell01" src="./src/img/empty.svg" alt="" draggable="true" ondragstart="onDragStart(event)" ondragend="onDragEnd()" ondragover="onDragOver(event)" ontouchstart="onTouchStart(event)" ontouchmove="onTouchMove(event)" ontouchend="onTouchEnd()"/>
+          </div>
+          <div class="cell">
+            <img id="cell02" src="./src/img/empty.svg" alt="" draggable="true" ondragstart="onDragStart(event)" ondragend="onDragEnd()" ondragover="onDragOver(event)" ontouchstart="onTouchStart(event)" ontouchmove="onTouchMove(event)" ontouchend="onTouchEnd()"/>
+          </div>
+          <div class="cell">
+            <img id="cell03" src="./src/img/empty.svg" alt="" draggable="true" ondragstart="onDragStart(event)" ondragend="onDragEnd()" ondragover="onDragOver(event)" ontouchstart="onTouchStart(event)" ontouchmove="onTouchMove(event)" ontouchend="onTouchEnd()"/>
+          </div>
+        </div>
+        <div class="row">
+          <div class="cell">
+            <img id="cell04" src="./src/img/empty.svg" alt="" draggable="true" ondragstart="onDragStart(event)" ondragend="onDragEnd()" ondragover="onDragOver(event)" ontouchstart="onTouchStart(event)" ontouchmove="onTouchMove(event)" ontouchend="onTouchEnd()"/>
+          </div>
+          <div class="cell">
+            <img id="cell05" src="./src/img/empty.svg" alt="" draggable="true" ondragstart="onDragStart(event)" ondragend="onDragEnd()" ondragover="onDragOver(event)" ontouchstart="onTouchStart(event)" ontouchmove="onTouchMove(event)" ontouchend="onTouchEnd()"/>
+          </div>
+          <div class="cell">
+            <img id="cell06" src="./src/img/empty.svg" alt="" draggable="true" ondragstart="onDragStart(event)" ondragend="onDragEnd()" ondragover="onDragOver(event)" ontouchstart="onTouchStart(event)" ontouchmove="onTouchMove(event)" ontouchend="onTouchEnd()"/>
+          </div>
+        </div>
+        <div class="row">
+          <div class="cell">
+            <img id="cell07" src="./src/img/empty.svg" alt="" draggable="true" ondragstart="onDragStart(event)" ondragend="onDragEnd()" ondragover="onDragOver(event)" ontouchstart="onTouchStart(event)" ontouchmove="onTouchMove(event)" ontouchend="onTouchEnd()"/>
+          </div>
+          <div class="cell">
+            <img id="cell08" src="./src/img/empty.svg" alt="" draggable="true" ondragstart="onDragStart(event)" ondragend="onDragEnd()" ondragover="onDragOver(event)" ontouchstart="onTouchStart(event)" ontouchmove="onTouchMove(event)" ontouchend="onTouchEnd()"/>
+          </div>
+          <div class="cell">
+            <img id="cell09" src="./src/img/empty.svg" alt="" draggable="true" ondragstart="onDragStart(event)" ondragend="onDragEnd()" ondragover="onDragOver(event)" ontouchstart="onTouchStart(event)" ontouchmove="onTouchMove(event)" ontouchend="onTouchEnd()"/>
+          </div>
+        </div>
+      </div>
+  
+      <div class="right">
+        <div class="row">
+          <div class="cell">
+            <img id="cell1" src="./src/img/empty.svg" alt="" draggable="true" ondragstart="onDragStart(event)" ondragend="onDragEnd()" ondragover="onDragOver(event)" ontouchstart="onTouchStart(event)" ontouchmove="onTouchMove(event)" ontouchend="onTouchEnd()"/>
+          </div>
+          <div class="cell">
+            <img id="cell2" src="./src/img/empty.svg" alt="" draggable="true" ondragstart="onDragStart(event)" ondragend="onDragEnd()" ondragover="onDragOver(event)" ontouchstart="onTouchStart(event)" ontouchmove="onTouchMove(event)" ontouchend="onTouchEnd()"/>
+          </div>
+          <div class="cell">
+            <img id="cell3" src="./src/img/empty.svg" alt="" draggable="true" ondragstart="onDragStart(event)" ondragend="onDragEnd()" ondragover="onDragOver(event)" ontouchstart="onTouchStart(event)" ontouchmove="onTouchMove(event)" ontouchend="onTouchEnd()"/>
+          </div>
+        </div>
+        <div class="row">
+          <div class="cell">
+            <img id="cell4" src="./src/img/empty.svg" alt="" draggable="true" ondragstart="onDragStart(event)" ondragend="onDragEnd()" ondragover="onDragOver(event)" ontouchstart="onTouchStart(event)" ontouchmove="onTouchMove(event)" ontouchend="onTouchEnd()"/>
+          </div>
+          <div class="cell">
+            <img id="cell5" src="./src/img/empty.svg" alt="" draggable="true" ondragstart="onDragStart(event)" ondragend="onDragEnd()" ondragover="onDragOver(event)" ontouchstart="onTouchStart(event)" ontouchmove="onTouchMove(event)" ontouchend="onTouchEnd()"/>
+          </div>
+          <div class="cell">
+            <img id="cell6" src="./src/img/empty.svg" alt="" draggable="true" ondragstart="onDragStart(event)" ondragend="onDragEnd()" ondragover="onDragOver(event)" ontouchstart="onTouchStart(event)" ontouchmove="onTouchMove(event)" ontouchend="onTouchEnd()"/>
+          </div>
+        </div>
+        <div class="row">
+          <div class="cell">
+            <img id="cell7" src="./src/img/empty.svg" alt="" draggable="true" ondragstart="onDragStart(event)" ondragend="onDragEnd()" ondragover="onDragOver(event)" ontouchstart="onTouchStart(event)" ontouchmove="onTouchMove(event)" ontouchend="onTouchEnd()"/>
+          </div>
+          <div class="cell">
+            <img id="cell8" src="./src/img/empty.svg" alt="" draggable="true" ondragstart="onDragStart(event)" ondragend="onDragEnd()" ondragover="onDragOver(event)" ontouchstart="onTouchStart(event)" ontouchmove="onTouchMove(event)" ontouchend="onTouchEnd()"/>
+          </div>
+          <div class="cell">
+            <img id="cell9" src="./src/img/empty.svg" alt="" draggable="true" ondragstart="onDragStart(event)" ondragend="onDragEnd()" ondragover="onDragOver(event)" ontouchstart="onTouchStart(event)" ontouchmove="onTouchMove(event)" ontouchend="onTouchEnd()"/>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="./src/js/index.min.js"></script>
+</body>
+</html>
